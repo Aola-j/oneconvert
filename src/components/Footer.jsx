@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="mt-16 p-4 text-center text-sm md:text-base text-gray-600 bg-white">
       <p className="font-medium text-xs">
-        © {new Date().getFullYear()} Smart Converter
+        © {new Date().getFullYear()} Smart Converter. Real-time rates powered by ExchangeRate-API.
       </p>
         {/* Social Links */}
       <div className="flex justify-center gap-4 text-1xl">
